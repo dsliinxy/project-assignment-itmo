@@ -1,5 +1,5 @@
 try:
-    with open('employees', 'r', encoding='utf-8') as employees_file:
+    with open('employees.txt', 'r', encoding='utf-8') as employees_file:
         lines1 = employees_file.readlines()
 except (FileNotFoundError, IOError):
     print("Ошибка при открытии или чтении файла.")
@@ -39,7 +39,7 @@ def employees_foo(lines1):
 employees_foo(lines1)
 
 try:
-    with open("tasks", "r", encoding="utf-8") as tasks_file:
+    with open("tasks.txt", "r", encoding="utf-8") as tasks_file:
         lines2 = tasks_file.readlines()
 except (FileNotFoundError, IOError):
     print("Ошибка при открытии или чтении файла.")
@@ -103,7 +103,7 @@ def assign_tasks(employees, tasks):
     return employee_plans, unassigned_tasks
 assign_tasks(employees, tasks)
 
-with open("plans", "w", encoding="utf-8") as file:
+with open("plans.txt", "w", encoding="utf-8") as file:
     for employee, employee_tasks in sorted(employee_plans.items()):
         file.write(f"{employee} - {sum(int(task['Время']) for task in employee_tasks)}\n")
         for index, task in enumerate(employee_tasks, start=1): # Нумерация с 1

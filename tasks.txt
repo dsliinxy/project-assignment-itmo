@@ -1,0 +1,6 @@
+Протестировать фичу 4398          junior html, java, тестирование            4
+Протестировать фичу 4399          junior тестирование             2
+Спарсить сайт test.test по форме  middle python, программирование, статистика  8
+Написать план тестирования        senior тестирование              7
+Task 1 junior python 10
+Task 2 senior python c++ 5

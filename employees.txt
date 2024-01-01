@@ -1,0 +1,5 @@
+Иванов Иван Иванович           middle html, java, тестирование
+Смирнов Алексей Александрович  senior python, анализ данных, статистика, программирование
+Кац Александр                  senior тестирование, программирование
+John Doe junior python java
+Jane Smith senior python c++
