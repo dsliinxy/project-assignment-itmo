@@ -1,4 +1,3 @@
-# project-assignment-itmo
 Вам будет дано два файла: - employees.txt
 - tasks.txt
 
